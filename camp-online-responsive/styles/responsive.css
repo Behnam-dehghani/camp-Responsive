@@ -1,0 +1,164 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media (max-width: 380px) {
+    .header-content__title {
+        font-size: 4rem;
+    }
+    .destinations__title{
+        font-size: 2.4rem;
+    }
+    .newsletter__title{
+        max-width: 16rem;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer__right{
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .footer-list{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 54rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 72rem;
+    }
+    .nav__btn, .nav-menu {
+        display: none;
+    }
+
+    .menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .newsletter{
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        text-align: left;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .newsletter__content{
+        -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+        padding-right: 2rem;
+    }
+    .newsletter__banner{
+        -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+    }
+    .newsletter::before{
+        width: auto;
+        height: auto;
+        top: -5rem;
+        left: -40rem;
+        background-size: auto;
+        background-position: center left;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 96rem;
+    }
+    .nav__links {
+        display: block;
+    }
+    .header-content__caption {
+        max-width: 50rem;
+    }
+    .newsletter__content{
+        padding-right: 4rem;
+    }
+    .newsletter__title{
+        margin-bottom: 0;
+    }
+
+    .footer-app{
+        display: block;
+    }
+    .footer-app--mobile{
+        display: none;
+    }
+    .footer__wrapper{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .footer__left{
+        max-width: 50rem;
+    }
+    .footer__scroll{
+        left: auto;
+    }
+    .newsletter::before{
+        top: -10rem;
+        left: -30rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 114rem;
+    }
+    .header{
+        min-height: 80rem;
+    }
+    .newsletter{
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .newsletter__content{
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        width: 60rem;
+    }
+    .newsletter__banner{
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        width: 42rem;
+    }
+    .footer__wrapper{
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .footer-list{
+        margin-bottom: 0;
+        margin-left: 2rem;
+    }
+    .newsletter::before{
+        top: -15rem;
+        left: -15rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 137rem;
+    }
+    .newsletter{
+        padding: 3rem 6rem;
+    }
+}
